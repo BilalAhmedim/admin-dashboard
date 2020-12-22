@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Admin Dashboard</title>
   <link rel="stylesheet" href="admin.css">
 </head>
+
 <body>
 
   <section class="nav-dashboard">
@@ -37,16 +39,88 @@
       </ul>
 
 
-      <ul class="nav-admin p-bt">
-        <li class="nav-admin nav-admin__item a extra-20-p"><a href="#">Go To Home</a></li>
-        <li class="nav-admin nav-admin__item color-red extra-20-p"><a href="#">Sign out</a></li>
-      </ul>
-
-
-
     </nav>
+  </section>
+
+  <section class="nav-admin return">
+    <nav>
+      <ul class="nav-admin avtar-nav">
+        <li class="nav-admin nav-admin__item dark"><a href="#">Go To Home</a></li>
+        <li class="nav-admin nav-admin__item color-red"><a href="#">Sign out</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <section class="form-section">
+    <h2 class="section-heading">Create Category</h2>
+    <form action="#" method="post">
+
+      <div class="content-group">
+        <label for="category">Product Name &#47; Title</label>
+        <input type="text" name="category">
+      </div>
+
+
+      <div class="content-group">
+        <label for="category">Length</label>
+        <input type="text" name="category" class="input-group-90p">
+        <select id="options" class="input-group-10p">
+          <option value="in">in</option>
+          <option value="cm" selected>cm</option>
+          <option value="mm">mm</option>
+        </select>
+      </div>
+
+      <div class="content-group">
+        <label for="category">Width</label>
+        <input type="text" name="category" class="input-group-90p">
+        <select id="options" class="input-group-10p">
+          <option value="in">in</option>
+          <option value="cm" selected>cm</option>
+          <option value="mm">mm</option>
+        </select>
+      </div>
+
+      <div class="content-group">
+        <label for="category">Height</label>
+        <input type="text" name="category" class="input-group-90p">
+        <select id="options" class="input-group-10p">
+          <option value="in">in</option>
+          <option value="cm" selected>cm</option>
+          <option value="mm">mm</option>
+        </select>
+      </div>
+
+      <div class="content-group">
+        <label for="category">Create Category</label>
+        <input type="text" name="category">
+      </div>
+
+      <div class="content-group">
+        <label for="category">Create Category</label>
+        <input type="text" name="category">
+      </div>
+
+      <div class="content-group">
+        <label for="category">Create Category</label>
+        <select id="options">
+          <option value="1">1</option>
+          <option value="2" selected>2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+      </div>
+
+      <div class="content-group">
+        <input type="submit" value="Save">
+      </div>
+
+    </form>
 
   </section>
 
 </body>
+
 </html>
